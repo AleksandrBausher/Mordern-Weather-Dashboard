@@ -1,4 +1,4 @@
-# My First Quiz
+# Mordern Weather Dashboard
 
 ## Description
 
@@ -21,12 +21,14 @@ Overall, the Modern Weather Dashboard webapp is a convenient tool for anyone who
 
 ## Installation
 
-Follow the link of the deployed application [My First Quiz](https://aleksandrbausher.github.io/Mordern-Weather-Dashboard/) ,
+Follow the link of the deployed application [Mordern Weather Dashboard](https://aleksandrbausher.github.io/Mordern-Weather-Dashboard/) ,
 
-Otherwise clone GitHub repository [My First Quiz](https://github.com/AleksandrBausher/Mordern-Weather-Dashboard)
+Otherwise clone GitHub repository [Mordern Weather Dashboard](https://github.com/AleksandrBausher/Mordern-Weather-Dashboard)
+
+And get your apikey from the [Open Weather Map](https://openweathermap.org/forecast5)
 
 ## Usage
-Click here to access my [My First Quiz](https://aleksandrbausher.github.io/Mordern-Weather-Dashboard/),<br />
+Click here to access my [Mordern Weather Dashboard](https://aleksandrbausher.github.io/Mordern-Weather-Dashboard/),<br />
 To know more about me and my projects
 
 ## Screenshot
