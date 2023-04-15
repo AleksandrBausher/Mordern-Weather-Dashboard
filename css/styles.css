@@ -12,12 +12,45 @@ header{
 main{
     display: flex;
     flex-direction: row;
+    gap: 20px;
     padding: 10px 20px;
 }
 
 aside{
     display: flex;
     flex-direction: column;
+    gap: 20px;
+}
+
+.searchTextfield{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.searchTileContainer{
+display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.searchTile{
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+
+section{
+    flex: 1;
+}
+
+.topContent{
+    padding-left: 20px;
+    border: 1px solid black;
+}
+.topContentHeader{
+    display: flex;
+    flex-direction: row;
 }
 
 .container{
@@ -28,4 +61,6 @@ aside{
 
 .weatherTile{
     background-color: azure;
+    border-radius: 10px;
+    padding: 10px 10px;
 }
