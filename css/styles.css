@@ -84,9 +84,10 @@ body {
     font-weight: bold;
     display: flex;
     flex-direction: row;
+    gap: 10px;
   }
   
-  .container {
+  #container {
     display: flex;
     flex-direction: row;
     gap: 20px;

@@ -13,10 +13,10 @@
       <aside>
         Search for a city:
         <div class="searchTextfield">
-          <input type="text" placeholder="search" />
-          <button class="searchButton">Search</button>
+          <input id="searchInput" type="text" placeholder="search" />
+          <button class="searchButton" id="searchButtonID">Search</button>
         </div>
-<div class="seperator"></div>
+        <div class="seperator"></div>
         <div class="searchTileContainer">
           <div class="searchTile">Cairo</div>
           <div class="searchTile">New York</div>
@@ -25,18 +25,19 @@
       <section>
         <div class="topContent">
           <div class="topContentHeader">
-            <p>New York</p>
-            <p>(2/28/2023)</p>
-            <img src="" alt="icon" />
+            <p id="topContentCity">New York</p>
+            <p id="topContentDate">(2/28/2023)</p>
+            <img id="topContentIcon" src="" alt="icon" />
           </div>
-          <p>Temp: <span class="topContentTemp"></span></p>
-          <p>Wind: <span class="topContentWind"></span></p>
-          <p>Humidity: <span class="topContentHumidity"></span></p>
+          <p>Temp: <span id="topContentTemp"></span></p>
+          <p>Wind: <span id="topContentWind"></span></p>
+          <p>Humidity: <span id="topContentHumidity"></span></p>
         </div>
+
         <div class="mainContent">
           <h3>5-day Forecast:</h3>
-          <div class="container">
-            <div class="weatherTile">
+          <div id="container">
+            <!-- <div class="weatherTile">
               <p>2/28/2023</p>
               <img src="" alt="icon" />
               <p>Temp: <span class="topContentTemp"></span></p>
@@ -50,9 +51,10 @@
               <p>Temp: <span class="topContentTemp"></span></p>
               <p>Wind: <span class="topContentWind"></span></p>
               <p>Humidity: <span class="topContentHumidity"></span></p>
-            </div>
+            </div> -->
           </div>
         </div>
+
       </section>
     </main>
   </body>
