@@ -1,66 +1,100 @@
-body{
-    background-color: antiquewhite;
+body {
+    background-color: white;
     margin: 0px;
-}
-
-header{
+  }
+  
+  header {
     padding: 10px 0px;
     text-align: center;
-    background-color: aquamarine;
-}
-
-main{
+    color: white;
+    background: linear-gradient(
+      90deg,
+      rgba(69, 86, 181, 1) 0%,
+      rgba(39, 22, 99, 1) 100%
+    );
+  }
+  
+  main {
     display: flex;
     flex-direction: row;
     gap: 20px;
     padding: 10px 20px;
-}
-
-aside{
+  }
+  
+  aside {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-}
-
-.searchTextfield{
+    width: 20%;
+    gap: 15px;
+  }
+  
+  input{
+      padding: 8px 5px;
+  }
+  
+  .searchButton{
+      padding: 6px 0px;
+      background-color: rgba(69, 86, 181, 1);
+      border: none;
+      color: gainsboro;
+  }
+  
+  .searchButton:hover{
+      cursor: pointer;
+      background-color: rgba(39, 22, 99, 1);
+      color: white;
+  }
+  
+  
+  .searchTextfield {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-.searchTileContainer{
-display: flex;
+  }
+  .searchTileContainer {
+    display: flex;
     flex-direction: column;
     gap: 10px;
-}
-.searchTile{
+  }
+  .searchTile {
     text-align: center;
-    border: 1px solid black;
-}
-
-
-
-
-section{
+    background-color: gainsboro;
+    padding: 5px 0px;
+    border-radius: 5px;
+  
+  }
+  
+  .seperator{
+      border: 1px solid gainsboro;
+  }
+  
+  .searchTile:hover{
+      cursor: pointer;
+  }
+  
+  section {
     flex: 1;
-}
-
-.topContent{
+  }
+  
+  .topContent {
     padding-left: 20px;
     border: 1px solid black;
-}
-.topContentHeader{
+  }
+  .topContentHeader {
+    font-weight: bold;
     display: flex;
     flex-direction: row;
-}
-
-.container{
+  }
+  
+  .container {
     display: flex;
     flex-direction: row;
     gap: 20px;
-}
-
-.weatherTile{
-    background-color: azure;
+  }
+  
+  .weatherTile {
+    background-color: #323D4E;
+    color: white;
     border-radius: 10px;
     padding: 10px 10px;
-}
+  }
