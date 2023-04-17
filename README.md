@@ -36,7 +36,7 @@ To know more about me and my projects
 ![First Screen](./media/images/screenshot1.png "screen1")
 
 ## Video
-![Video Demo](./media/video/videoDemo.mp4 "videodemo")
+You can go through the [Demonstration Video](https://drive.google.com/file/d/14Z7YvYXNk26N9ZY2Z9oKWjbKyt9pxG9c/view?usp=sharing)
 
 
 ## Contribution
