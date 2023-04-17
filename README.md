@@ -15,6 +15,7 @@ Overall, the Modern Weather Dashboard webapp is a convenient tool for anyone who
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshot](#screenshot)
+- [Video](#video)
 - [Contribution](#contribution)
 - [Questions](#questions)
 - [License](#license)
@@ -32,6 +33,10 @@ Click here to access my [Mordern Weather Dashboard](https://aleksandrbausher.git
 To know more about me and my projects
 
 ## Screenshot
+![First Screen](./media/images/screenshot1.png "screen1")
+
+## Video
+
 
 ## Contribution
 
